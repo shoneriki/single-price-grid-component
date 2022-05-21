@@ -42,24 +42,15 @@ body {
   color: white;
 }
 
+
 .card {
   border-radius: 4px;
   overflow: hidden;
 }
 
-.top {
+.top{
   background-color: #fff;
   padding: 24px;
-}
-
-.left {
-  background-color: var(--cyan);
-  flex: 1;
-}
-
-.right {
-  background-color: var(--light-cyan);
-  flex: 1;
 }
 
 .bottom {
@@ -68,9 +59,46 @@ body {
   width: 100%;
 }
 
+.left {
+  background-color: var(--cyan);
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 32px;
+}
+
+span {
+  font-size: 2em;
+  font-weight: 700;
+  margin-right: 16px;
+}
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+}
+button {
+  background-color: var(--greenish-yellow);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  width: 100%;
+}
+
+.right {
+  background-color: var(--light-cyan);
+  flex: 1;
+}
 ul > li {
   list-style: none;
 }
+
 footer {
   color: hsl(228, 45%, 44%);
   font-size: 8px;
