@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Outfit:wght@400;700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,7 +11,8 @@
   --grayish-blue: hsl(218, 22%, 67%);
   --cyan: hsl(179, 62%, 43%);
   --light-cyan: hsla(179, 62%, 43%, .45) ;
-  --bright-yellow: hsl(71, 73%, 54%);
+  --greenish-yellow: hsl(71, 73%, 54%);
+  --font-family: "Karla", sans-serif;
 }
 
 body {
@@ -19,25 +22,34 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: var(--light-gray);
+  font-family: var(--font-family);
 }
 
-#blue-header{
+#cyan-header{
+  color: var(--cyan);
+  margin-bottom: 16px;
+}
+#yellow-header {
+  color: var(--greenish-yellow);
+  margin-bottom: 8px;
+}
+#transparent-font {
+  color: hsla(218, 22%, 67%, .75);
+  line-height: 1.4;
 
 }
-
-#green-header {
-
+.white-text {
+  color: white;
 }
 
-.transparent-font {
-}
-
-.light-header {
-
+.card {
+  border-radius: 4px;
+  overflow: hidden;
 }
 
 .top {
   background-color: #fff;
+  padding: 24px;
 }
 
 .left {
@@ -61,10 +73,10 @@ ul > li {
 }
 footer {
   color: hsl(228, 45%, 44%);
-  font-size: 11px;
+  font-size: 8px;
   text-align: center;
   position: fixed;
-  bottom: 0px;
+  bottom: 16px;
   margin-right: auto;
   margin-left: auto;
 }
