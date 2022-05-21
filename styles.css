@@ -4,18 +4,43 @@
   padding: 0;
 }
 
+:root {
+  --light-gray: hsl(204, 43%, 93%);
+  --grayish-blue: hsl(218, 22%, 67%);
+}
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   width: 100vw;
+  background-color: var(--light-gray);
+}
+
+#blue-header{
+
+}
+
+#green-header {
+
+}
+
+.transparent-font {
+
+}
+
+.light-header {
+
+}
+
+.bottom {
+  display: flex;
 }
 
 ul > li {
   list-style: none;
 }
-
 footer {
   color: hsl(228, 45%, 44%);
   font-size: 11px;
