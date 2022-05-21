@@ -7,6 +7,9 @@
 :root {
   --light-gray: hsl(204, 43%, 93%);
   --grayish-blue: hsl(218, 22%, 67%);
+  --cyan: hsl(179, 62%, 43%);
+  --light-cyan: hsla(179, 62%, 43%, .45) ;
+  --bright-yellow: hsl(71, 73%, 54%);
 }
 
 body {
@@ -27,15 +30,30 @@ body {
 }
 
 .transparent-font {
-
 }
 
 .light-header {
 
 }
 
+.top {
+  background-color: #fff;
+}
+
+.left {
+  background-color: var(--cyan);
+  flex: 1;
+}
+
+.right {
+  background-color: var(--light-cyan);
+  flex: 1;
+}
+
 .bottom {
   display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 ul > li {
