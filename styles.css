@@ -42,6 +42,7 @@ body {
   color: var(--cyan);
   margin-bottom: 16px;
 }
+
 .top #yellow-header {
   color: var(--greenish-yellow);
   margin-bottom: 8px;
@@ -57,7 +58,7 @@ body {
   width: 100%;
 }
 
-.left {
+.bottom .left {
   background-color: var(--cyan);
   flex: 1;
   display: flex;
@@ -75,7 +76,6 @@ body {
   align-items: center;
   /* border: 1px solid blue; */
 }
-
 .price-container > span {
   font-size: 2em;
   font-weight: 700;
