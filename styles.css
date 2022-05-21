@@ -25,23 +25,9 @@ body {
   font-family: var(--font-family);
 }
 
-#cyan-header{
-  color: var(--cyan);
-  margin-bottom: 16px;
-}
-#yellow-header {
-  color: var(--greenish-yellow);
-  margin-bottom: 8px;
-}
-#transparent-font {
-  color: hsla(218, 22%, 67%, .75);
-  line-height: 1.4;
-
-}
 .white-text {
   color: white;
 }
-
 
 .card {
   border-radius: 4px;
@@ -51,6 +37,18 @@ body {
 .top{
   background-color: #fff;
   padding: 24px;
+}
+.top h3 {
+  color: var(--cyan);
+  margin-bottom: 16px;
+}
+.top #yellow-header {
+  color: var(--greenish-yellow);
+  margin-bottom: 8px;
+}
+.top p {
+  color: hsla(218, 22%, 67%, .75);
+  line-height: 1.4;
 }
 
 .bottom {
@@ -67,28 +65,42 @@ body {
   flex-direction: column;
   padding: 32px;
 }
+.left > h3 {
+  color: white;
+  margin-bottom: 8px;
+}
 
-span {
+.left > .price-container {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid blue; */
+}
+
+.price-container > span {
   font-size: 2em;
   font-weight: 700;
-  margin-right: 16px;
+  margin: 0px 16px 4px 0px;
+  /* border: 1px solid red; */
 }
-.price {
-  display: flex;
-  align-items: center;
+.price-container > p {
+  color: rgba(255, 255, 255, .5);
+  /* border: 1px solid white; */
 }
 
-.price-container {
-  display: flex;
-  align-items: center;
-  border: 1px solid black;
+.left p {
+  color: rgba(255, 255, 255, .8);
 }
-button {
+
+.left button {
   background-color: var(--greenish-yellow);
   border: none;
-  border-radius: 4px;
+  padding: 16px 32px;
+  border-radius: 8px;
   color: white;
   width: 100%;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 16px 0;
 }
 
 .right {
