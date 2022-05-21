@@ -5,4 +5,23 @@
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+ul > li {
+  list-style: none;
+}
+
+footer {
+  color: hsl(228, 45%, 44%);
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
 }
