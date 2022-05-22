@@ -10,7 +10,7 @@
   --light-gray: hsl(204, 43%, 93%);
   --grayish-blue: hsl(218, 22%, 67%);
   --cyan: hsl(179, 62%, 43%);
-  --light-cyan: hsla(179, 62%, 43%, .75) ;
+  --light-cyan: hsla(179, 62%, 43%, .8) ;
   --greenish-yellow: hsl(71, 73%, 54%);
   --font-family: "Karla", sans-serif;
 }
@@ -33,7 +33,7 @@ body {
   border-radius: .5em;
   overflow: hidden;
   width: 640px;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, .1);
+  box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.15);
 }
 
 .top{
@@ -89,7 +89,7 @@ body {
   width: 100%;
 }
 
-  #description {
+  .left > p {
   color: rgba(255, 255, 255, .8);
   /* border: 1px solid black; */
   padding-bottom: 32px;
