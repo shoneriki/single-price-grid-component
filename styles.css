@@ -19,8 +19,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  /* width: 100vw; */
   background-color: var(--light-gray);
   font-family: var(--font-family);
 }
@@ -70,27 +70,27 @@ body {
   flex: 1;
   padding: 40px;
 }
-.left > h3 {
+.left  h3 {
   color: white;
   padding-bottom: 16px;
 }
-.left > .price-container {
+.left .price-container {
   display: flex;
   align-items: center;
   /* border: 1px solid blue; */
 }
-.left > .price-container > span {
+.price-container  span {
   font-size: 2em;
   font-weight: 700;
   margin: 0px 16px 4px 0px;
   /* border: 1px solid red; */
 }
-.left > .price-container > p {
+.price-container > p {
   color: rgba(255, 255, 255, .5);
   /* border: 1px solid white; */
 }
 
-  .left > p {
+.left > p {
   color: rgba(255, 255, 255, .8);
   /* border: 1px solid black; */
   padding-bottom: 32px;
@@ -169,3 +169,4 @@ footer{
   footer {
     width: 80%;
   }
+}
