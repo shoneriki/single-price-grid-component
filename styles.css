@@ -97,7 +97,7 @@ body {
   white-space: nowrap;
 }
 
-.left button {
+.left a {
   background-color: var(--greenish-yellow);
   border: none;
   padding: 16px 32px;
@@ -107,6 +107,9 @@ body {
   font-weight: 700;
   letter-spacing: 1px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, .1);
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .right {
