@@ -40,7 +40,7 @@ body {
   background-color: #fff;
   padding: 40px;
 }
-.top h3 {
+.top h2 {
   color: var(--cyan);
   padding-bottom: 16px;
   font-weight: 700;
@@ -132,11 +132,11 @@ body {
 footer{
   color: hsl(228, 45%, 44%);
   font-size: 12px;
-  position: fixed;
+  position: absolute;
   bottom: 16px;
+  display: inline;
   text-align: center;
   border: 1px solid black;
-  margin: 0;
 }
 
 
