@@ -42,12 +42,14 @@ body {
 }
 .top h3 {
   color: var(--cyan);
-  margin-bottom: 16px;
+  padding-bottom: 16px;
+  font-weight: 700;
 }
 
 .top #yellow-header {
   color: var(--greenish-yellow);
-  margin-bottom: 8px;
+  padding-bottom: 8px;
+  font-weight: 700;
 }
 .top p {
   color: hsla(218, 22%, 67%, .75);
