@@ -118,12 +118,13 @@ body {
   padding: 32px;
 
 }
+
 .right h3{
   color: white;
   padding-bottom: 16px;
 }
 
-.right > ul > li {
+#list > li {
   list-style: none;
   color: rgba(255, 255, 255, .6);
   line-height: 1.25;
@@ -132,11 +133,9 @@ body {
 footer{
   color: hsl(228, 45%, 44%);
   font-size: 12px;
-  position: absolute;
-  bottom: 16px;
-  display: inline;
   text-align: center;
   border: 1px solid black;
+  margin-top: auto;
 }
 
 
@@ -160,10 +159,10 @@ footer{
   }
 
   .left > p {
-  color: rgba(255, 255, 255, .8);
-  /* border: 1px solid black; */
-  padding-bottom: 32px;
-  white-space: nowrap;
+    color: rgba(255, 255, 255, .8);
+    /* border: 1px solid black; */
+    padding-bottom: 32px;
+    white-space: nowrap;
   }
 
   footer {
