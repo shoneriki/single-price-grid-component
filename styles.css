@@ -88,13 +88,13 @@ body {
 .left > .price-container > p {
   color: rgba(255, 255, 255, .5);
   /* border: 1px solid white; */
-  width: 100%;
 }
 
   .left > p {
   color: rgba(255, 255, 255, .8);
   /* border: 1px solid black; */
   padding-bottom: 32px;
+  white-space: nowrap;
 }
 
 .left button {
@@ -116,6 +116,7 @@ body {
   flex-direction: column;
   justify-content: center;
   padding: 32px;
+
 }
 .right h3{
   color: white;
@@ -128,24 +129,43 @@ body {
   line-height: 1.25;
 }
 
-footer {
+footer{
   color: hsl(228, 45%, 44%);
-  font-size: 8px;
-  text-align: center;
+  font-size: 12px;
   position: fixed;
   bottom: 16px;
-  margin-right: auto;
-  margin-left: auto;
+  text-align: center;
+  border: 1px solid black;
+  margin: 0;
 }
+
+
 
 @media (max-width: 500px) {
   .card {
     width: 300px;
-    height: 600px;
+  }
+
+  .top {
+    padding: 26px;
   }
 
   .bottom {
     display: flex;
     flex-direction: column;
   }
-}
+
+  .left {
+    padding: 24px;
+  }
+
+  .left > p {
+  color: rgba(255, 255, 255, .8);
+  /* border: 1px solid black; */
+  padding-bottom: 32px;
+  white-space: nowrap;
+  }
+
+  footer {
+    width: 80%;
+  }
