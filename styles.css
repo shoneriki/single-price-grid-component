@@ -30,8 +30,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 8px solid black; */
-  /* min-height: 96vh; */
+
   flex-grow: 1;
 }
 
@@ -41,6 +40,9 @@ body {
 }
 
 .card {
+  display: grid;
+  grid-template-columns: 2fr;
+  grid-template-rows: 1fr 1fr;
   border-radius: .5em;
   overflow: hidden;
   width: 640px;
