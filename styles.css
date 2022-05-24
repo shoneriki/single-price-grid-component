@@ -31,7 +31,8 @@ body {
   justify-content: center;
   align-items: center;
   /* border: 8px solid black; */
-  min-height: 96vh;
+  /* min-height: 96vh; */
+  flex-grow: 1;
 }
 
 
